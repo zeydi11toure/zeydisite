@@ -1,0 +1,73 @@
+:root{
+    --main-color: #1F425D; 
+   /* --main-color: #071c34; */
+   --second-color: #E94D1A;
+   --third-color: #4AB9CF;
+   --white-color: #FFFFFF;
+   --black-color: #222;
+ }
+  /* BANIERE */
+  .container-baniere-article{
+     margin-top: 67px;
+     width: 100%;
+     background-image: url("../Public/ressource_site_html_css-main/images/bannieres/banner_details_formation.png");
+     height: 500px;
+     background-size: cover;
+   }
+ 
+   .text-baniere{
+     position: absolute;
+     top: 25%;
+     left: 3%;
+   }
+   .text-baniere h1{
+     font-weight: 700;
+     font-size: 7vh;
+   }
+   .text-baniere p{
+     font-size: 3vh;
+    font-style: italic;
+   }
+ 
+   .pagination-link{
+     margin-top: 7vh;
+   }
+   .page-item a {
+     background-color:var(--main-color);
+     color: var(--white-color);
+   }
+ 
+   .cta a {
+     color: var(--white-color) !important;
+   }
+
+   .video-formation {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 7vh;
+    }
+    
+    .place-menu {
+       grid-area: 1 / 1 / 2 / 2;
+  
+       }
+    .place-video { 
+      grid-area: 1 / 2 / 2 / 3;
+
+     }
+
+     .accordion-body a {
+      color: var(--white-color);
+      background-color: var(--main-color);
+      padding: 10px;
+      display: block;
+
+     }
+
+     .accordion-body li {
+      margin-top: 1.5vh;
+      width: 100%;
+     }

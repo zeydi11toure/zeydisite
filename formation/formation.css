@@ -1,0 +1,42 @@
+:root{
+    --main-color: #1F425D; 
+   /* --main-color: #071c34; */
+   --second-color: #E94D1A;
+   --third-color: #4AB9CF;
+   --white-color: #FFFFFF;
+   --black-color: #222;
+ }
+  /* BANIERE */
+  .container-baniere-article{
+     margin-top: 67px;
+     width: 100%;
+     background-image: url("../Public/ressource_site_html_css-main/images/bannieres/banner_formation.png");
+     height: 500px;
+     background-size: cover;
+   }
+ 
+   .text-baniere{
+     position: absolute;
+     top: 25%;
+     left: 3%;
+   }
+   .text-baniere h1{
+     font-weight: 700;
+     font-size: 7vh;
+   }
+   .text-baniere p{
+     font-size: 3vh;
+    font-style: italic;
+   }
+ 
+   .pagination-link{
+     margin-top: 7vh;
+   }
+   .page-item a {
+     background-color:var(--main-color);
+     color: var(--white-color);
+   }
+ 
+   .cta a {
+     color: var(--white-color) !important;
+   }
